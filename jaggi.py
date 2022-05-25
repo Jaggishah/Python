@@ -4,3 +4,4 @@ for r in range(3):
     for c in range(3):
         if l[r][c]%2!=0:
             print('#',l[r][c])
+            print("hello")
