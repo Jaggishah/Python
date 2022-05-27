@@ -1,9 +1,4 @@
-print("arrow")
-print("  /\  ")
-print(" /  \ ")
-print("/    \ ")
-print("______")
-print(" | |")
-print(" | |")
-print(" | |")
-print(" ___ ")
+for i in range(1):
+    print('#')
+else:
+    print("#")
