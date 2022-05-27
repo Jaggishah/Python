@@ -1,7 +1,9 @@
-l=[[x for x in range(3)]for y in range(3)]
-
-for r in range(3):
-    for c in range(3):
-        if l[r][c]%2!=0:
-            print('#',l[r][c])
-            print("hello")
+print("arrow")
+print("  /\  ")
+print(" /  \ ")
+print("/    \ ")
+print("______")
+print(" | |")
+print(" | |")
+print(" | |")
+print(" ___ ")
