@@ -1,13 +1,11 @@
 class jaggi:
-    def __init__(self,name):
-        self.name=name
+    def __init__(self,instrument):
+        self.__instrument=instrument
+
     
-    def music(self):
-        print("Music Is Life")
 
 
-l = jaggi("shah")
-print(l.name)
-l.music()
-
+l = jaggi("Guitar")
+c=l._jaggi__instrument
+print(c)
       
