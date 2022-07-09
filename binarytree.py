@@ -27,6 +27,7 @@ class Node:
                 self.right.printtree()
     def inorder(self,k):
         res=[]
+        
         if k:
             res.append(k.data)
             res=res +  self.inorder(k.left)
@@ -34,6 +35,13 @@ class Node:
             res =res + self.inorder(k.right)
 
         return res
+    def maxdepth(self,k):
+        if not k:
+            return 0
+
+        else:
+            return(1+max(self.maxdepth(k.left),self.maxdepth(k.right)))
+
 
 k = Node(10)
 k.insert(4)
@@ -41,5 +49,5 @@ k.insert(12)
 k.insert(7)
 k.insert(17)
 print(k.inorder(k))
-    
+print(k.maxdepth(k))
         
